@@ -23,7 +23,6 @@ API_KEY = "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"
 
 client = InferenceClient(model=LLM_MODEL, token=API_KEY)
 embedder = SentenceTransformer(EMBEDDING_MODEL)
-
 # ------------------- Global State -------------------
 image_data_store = {}
 image_id_map = {}
