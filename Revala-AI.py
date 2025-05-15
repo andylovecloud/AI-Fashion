@@ -141,6 +141,16 @@ def process_uploaded_files(uploaded_files):
     save_json()
     save_csv()
     rebuild_index()
+    # Load existing wardrobe data on startup
+    if os.path.exists(JSON_PATH) and not image_data_store:
+        with open(JSON_PATH, "r") as jf:
+            image_data_store.update(json.load(jf))
+        for img_id in image_data_store:
+            # Fake/empty image placeholder just to maintain UI list; actual images not reloadable without reprocessing
+            st.session_state["image_id_map"][img_id] = Image.new("RGB", (100, 100), color=(200, 200, 200))
+        rebuild_index()
+
+
 
 def answer_question(question):
     if not image_data_store or not index:
@@ -161,17 +171,34 @@ def answer_question(question):
         output += f"- **Suggested Pairing:** {', '.join(data.get('suggestions', []))}\n\n"
     return output.strip()
 
-def delete_item(image_id_partial):
-    full_id = next((key for key in image_data_store if image_id_partial in key), None)
-    if full_id:
-        image_data_store.pop(full_id, None)
-        image_id_map.pop(full_id, None)
+def delete_item(image_id):
+    if image_id not in image_data_store:
+        return f"⚠️ No match found for '{image_id}'."
+
+    # Delete from all stores
+    image_data_store.pop(image_id, None)
+    image_id_map.pop(image_id, None)
+    if "image_id_map" in st.session_state:
+        st.session_state["image_id_map"].pop(image_id, None)
+
+    save_json()
+    save_csv()
+    rebuild_index()
+
+    return f"✅ Deleted: {image_id}"
+
+
+    # Delete from all stores
+    image_data_store.pop(full_id, None)
+    image_id_map.pop(full_id, None)
+    if "image_id_map" in st.session_state:
         st.session_state["image_id_map"].pop(full_id, None)
-        save_json()
-        save_csv()
-        rebuild_index()
-        return f"✅ Deleted: {full_id}"
-    return f"⚠️ {image_id_partial} not found."
+
+    save_json()
+    save_csv()
+    rebuild_index()
+
+    return f"✅ Deleted: {full_id}"
 
 # ------------------- Streamlit UI -------------------
 
@@ -181,15 +208,47 @@ st.title("🧥 AI Stylist — Wardrobe Advisor with RAG & Vision")
 if "image_id_map" not in st.session_state:
     st.session_state["image_id_map"] = {}
 
+# uploaded_files = st.file_uploader("Upload Clothing Images", type=["png", "jpg", "jpeg"], accept_multiple_files=True)
+
+# if uploaded_files:
+#     st.subheader("📂 Uploaded Files (Select to keep)")
+#     files_to_keep = []
+#     for file in uploaded_files:
+#         col1, col2 = st.columns([1, 4])
+#         with col1:
+#             keep = st.checkbox("Keep", value=True, key=file.name)
+#         with col2:
+#             st.write(file.name)
+#         if keep:
+#             files_to_keep.append(file)
+
+
 uploaded_files = st.file_uploader("Upload Clothing Images", type=["png", "jpg", "jpeg"], accept_multiple_files=True)
+
+if uploaded_files:
+    st.subheader("📂 Uploaded Files (Select to keep)")
+    files_to_keep = []
+    for file in uploaded_files:
+        col1, col2 = st.columns([1, 4])
+        with col1:
+            keep = st.checkbox("Keep", value=True, key=file.name)
+        with col2:
+            st.write(file.name)
+        if keep:
+            files_to_keep.append(file)
+
+    if st.button("Process Selected Files"):
+        with st.spinner("Analyzing selected wardrobe items..."):
+            process_uploaded_files(files_to_keep)
+        st.success("Wardrobe updated!")
 
 st.subheader("💬 Ask your stylist")
 user_question = st.text_input("What would you like to ask?")
 
-if user_question and uploaded_files:
-    with st.spinner("Analyzing wardrobe items..."):
-        process_uploaded_files(uploaded_files)
-    st.success("Wardrobe updated!")
+# if user_question and files_to_keep:
+#     with st.spinner("Analyzing selected wardrobe items..."):
+#         process_uploaded_files(files_to_keep)
+#     st.success("Wardrobe updated!")
 
 if user_question:
     with st.spinner("Thinking..."):
@@ -198,14 +257,26 @@ if user_question:
 
 if st.session_state["image_id_map"]:
     st.subheader("👗 Wardrobe Gallery")
-    for img_id, img in st.session_state["image_id_map"].items():
-        st.image(img, caption=img_id, width=300)
 
-st.subheader("🗑️ Delete an item from wardrobe")
-delete_id = st.text_input("Enter part of Image ID to delete")
-if st.button("Delete"):
-    result = delete_item(delete_id)
-    if "Deleted" in result:
-        st.success(result)
-    else:
-        st.warning(result)
+    image_ids = list(st.session_state["image_id_map"].keys())
+    cols = st.columns(4)  # 4 columns layout
+
+    for i, img_id in enumerate(image_ids):
+        col = cols[i % 4]
+        with col:
+            st.image(st.session_state["image_id_map"][img_id], caption=img_id, use_container_width=True)
+
+if st.session_state["image_id_map"]:
+    st.subheader("🗑️ Delete an item from wardrobe")
+    image_ids = list(st.session_state["image_id_map"].keys())
+    selected_id = st.selectbox("Select an item to delete by Image ID", options=image_ids)
+
+    if st.button("Delete Selected Item"):
+        result = delete_item(selected_id)
+        if "Deleted" in result:
+            st.success(result)
+        else:
+            st.warning(result)
+
+
+
