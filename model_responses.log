@@ -1,0 +1,379 @@
+2025-05-15 08:44:08,600 - Use pytorch device_name: cpu
+2025-05-15 08:44:08,600 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 09:26:28,170 - Use pytorch device_name: cpu
+2025-05-15 09:26:28,170 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 09:26:34,577 - Use pytorch device_name: cpu
+2025-05-15 09:26:34,577 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 09:26:35,755 - Use pytorch device_name: cpu
+2025-05-15 09:26:35,756 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 09:55:01,114 - Use pytorch device_name: cpu
+2025-05-15 09:55:01,115 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 09:55:01,115 - Use pytorch device_name: cpu
+2025-05-15 09:55:01,116 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 09:57:23,914 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 09:58:49,259 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 10:09:09,223 - Use pytorch device_name: cpu
+2025-05-15 10:09:09,226 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 10:11:28,473 - Use pytorch device_name: cpu
+2025-05-15 10:11:28,481 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 10:56:54,870 - Use pytorch device_name: cpu
+2025-05-15 10:56:54,876 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:37:16,185 - Use pytorch device_name: cpu
+2025-05-15 12:37:16,186 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:40:36,501 - Use pytorch device_name: cpu
+2025-05-15 12:40:36,501 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:40:49,793 - Use pytorch device_name: cpu
+2025-05-15 12:40:49,793 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:40:59,744 - Use pytorch device_name: cpu
+2025-05-15 12:40:59,744 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:41:01,305 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e0dd-01c56c602b9c23250f8b4058;4a4ab725-db43-4411-a07c-de3a64779ea3)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 12:41:31,164 - Use pytorch device_name: cpu
+2025-05-15 12:41:31,164 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:42:16,169 - Use pytorch device_name: cpu
+2025-05-15 12:42:16,169 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:44:06,490 - Use pytorch device_name: cpu
+2025-05-15 12:44:06,490 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:44:30,443 - Use pytorch device_name: cpu
+2025-05-15 12:44:30,443 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:44:37,112 - Use pytorch device_name: cpu
+2025-05-15 12:44:37,112 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:44:38,127 - Use pytorch device_name: cpu
+2025-05-15 12:44:38,127 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:48:47,742 - Use pytorch device_name: cpu
+2025-05-15 12:48:47,742 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:48:55,374 - Use pytorch device_name: cpu
+2025-05-15 12:48:55,374 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:49:01,138 - Use pytorch device_name: cpu
+2025-05-15 12:49:01,138 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:49:04,101 - Use pytorch device_name: cpu
+2025-05-15 12:49:04,101 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:49:05,695 - Text generation error: 
+2025-05-15 12:49:06,683 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e2c2-0f4ef9bc73fd9d096e39a40e;3cff7d1d-075d-4506-9729-ca3883960951)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 12:50:42,607 - Use pytorch device_name: cpu
+2025-05-15 12:50:42,607 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:50:43,676 - Use pytorch device_name: cpu
+2025-05-15 12:50:43,676 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:50:48,927 - Use pytorch device_name: cpu
+2025-05-15 12:50:48,927 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:50:53,517 - Use pytorch device_name: cpu
+2025-05-15 12:50:53,517 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:50:56,458 - Use pytorch device_name: cpu
+2025-05-15 12:50:56,458 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 12:50:57,487 - Text generation error: 
+2025-05-15 12:50:57,638 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e331-2851188e0f504e0f63a494ad;80b159c8-f319-423f-8ea1-1da131e163fa)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:12:36,414 - Use pytorch device_name: cpu
+2025-05-15 13:12:36,414 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:12:45,575 - Use pytorch device_name: cpu
+2025-05-15 13:12:45,575 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:12:49,155 - Use pytorch device_name: cpu
+2025-05-15 13:12:49,155 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:12:50,716 - Analyze error for black-hat_737b2b1a: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e852-268434dc6491d31b6a16c857;1367edb9-f3b3-4ddc-b281-4335f81a1c8e)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:12:50,817 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e852-0e4c4676085fff0b5d954022;4b4c6989-daf0-497a-b8a5-d8b6ced24684)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:12:50,919 - Analyze error for Black-hoodie_50a62a1e: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e853-357a988e5dc578316291b3d6;4500e5b0-65be-4290-9c40-f73c72b0679b)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:12:51,018 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e853-27f89bfd122882226c6dc415;ce6c8d6f-4b77-413e-9103-eb6b8d7c77dd)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:12:51,144 - Analyze error for black-jumper_f486322f: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e853-650162bc7b278a9458c4d401;1851702c-4ccc-4ed1-b1fb-21c5c4f931a0)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:12:51,248 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e853-7c43f8ca676bbc4628203442;a53d872b-140b-458d-a351-bd082b830dd6)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:12:51,359 - Analyze error for black-pant_bd80db81: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e853-7a5e656d2486f3846f71df6f;1c4519da-2c90-4011-8a57-d99ff819443c)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:12:51,453 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e853-1da100ee5b9e99b31a6354bc;6739f216-9a5f-4084-bc53-bcef6107b679)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:12:51,557 - Analyze error for black-trousers_08465cce: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e853-0c4049784fd3148a518d41b8;15585cf4-114f-4b36-b901-27a5f12ad81e)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:12:51,650 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e853-1af9c0cb07cde88e4545ead5;95c75bed-c3c4-46d0-853b-89b15ee053af)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:12:51,744 - Analyze error for white-t-shirt-round_65175216: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e853-5ec10081057410f6587f31af;2d72f7d7-212c-43b9-8397-8d3730305da0)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:12:51,953 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e853-4dfe9a7621eb15e60b1623b9;5d3a9bd4-a4b1-4b94-88a8-ab2247c1403f)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:12:52,050 - Analyze error for white-t-shirt_c1ff04b8: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e854-502220291218fcbd3579d8e1;5e87f625-158c-4ed6-989b-58d79b4d11f6)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:12:52,143 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e854-34a7d731179bd73c0469dc70;95e27d2a-84db-44da-8adc-6d1042e1a3a2)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:03,785 - Use pytorch device_name: cpu
+2025-05-15 13:13:03,785 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:13:06,442 - Use pytorch device_name: cpu
+2025-05-15 13:13:06,442 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:13:06,517 - Use pytorch device_name: cpu
+2025-05-15 13:13:06,517 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:13:09,850 - Use pytorch device_name: cpu
+2025-05-15 13:13:09,850 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:13:11,069 - Analyze error for black-hat_8feb0809: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e867-7a432c7e60b33cb16a6e19b8;11d1125d-41c8-407e-9cab-2344c8cb46bd)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:11,161 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e867-5fdd0bb039a311cd255d0701;ba67430e-03a2-4f97-9b3d-4881c883def0)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:11,259 - Analyze error for Black-hoodie_d0dd1364: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e867-6f092968576d072b63abbb2f;f4e59dd2-e806-4c35-b680-bab47db424e6)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:11,356 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e867-395ea33f309aa50017dbe965;327a6cc6-aa4d-43f6-a518-534de90fcf24)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:11,466 - Analyze error for black-jumper_fffba87a: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e867-097c811432824dda5a1bd893;f8bcfa48-c07d-4387-b2b4-7f505a63f94a)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:11,562 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e867-2440d4e63b404b2b6fd316f5;3d0d42fd-7e4d-46b9-9429-a9b778a91c5c)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:11,775 - Analyze error for black-pant_84cc0269: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e867-2574b64778b6591675233e98;8ac15537-000c-4dc7-aec7-0a31366bb778)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:11,911 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e868-6018891625e20f333147d733;3996425e-64d0-42b5-8d53-60eff378250d)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:12,028 - Analyze error for black-trousers_5f41eea1: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e868-0cc48f153f8d7a3568f7cc78;682adfb4-92b6-45ff-9bf8-36dc9dd6ab1f)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:12,121 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e868-6e4503ca4204374b0ebd442b;4dca1bd0-9f6d-4d21-a36e-bd57b89498f1)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:12,217 - Analyze error for white-t-shirt-round_b17abbaf: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e868-32fb3ce30b98c67664f720b4;ed60e476-5719-436d-90c5-16a579346417)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:12,309 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e868-0cbe2adf746c57a9744911db;e52c1312-8848-4eeb-8ad3-ebfdb3298f4f)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:12,413 - Analyze error for white-t-shirt_842dfc2b: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e868-4cf556735ae68ee056c20342;fbc337b4-617e-4fb6-9f86-a886dab03f90)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:12,509 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e868-6f2821733c752c721c51d22a;661c6357-6480-480d-ae13-7645a65fb658)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:15,457 - Use pytorch device_name: cpu
+2025-05-15 13:13:15,457 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:13:21,942 - Use pytorch device_name: cpu
+2025-05-15 13:13:21,943 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:13:23,185 - Analyze error for black-hat_0eccafcd: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e873-20b24ae133d6d3d065921e8f;32ab190d-ef1c-475e-8210-f8ae7f4d3cfc)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:23,287 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e873-79b3720f148dd5953d576515;7c7c3abb-e0f6-4480-9030-dfba0b183454)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:23,396 - Analyze error for Black-hoodie_5a7ee7a4: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e873-7d27368b389515b166f5bf03;e1fa96a9-27c0-4344-9dbe-6faf01142f77)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:23,491 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e873-1b419c1275afcffc7f07276a;0f7c0e36-513a-4d4c-87aa-66014635fe49)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:23,588 - Analyze error for black-jumper_4432281d: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e873-6fe51db66875cf551ab23089;ee265aaa-38db-411e-9515-be8920dff59c)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:23,689 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e873-0e086b7a4d7d321d4929d00c;e934ded8-7f0c-4f5b-a531-2e778bb8b8a9)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:23,787 - Analyze error for black-pant_fa9a2ca7: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e873-3b018c6d7429156b71ad1642;65f8f9df-45ea-411c-87d0-48e03369f050)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:23,891 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e874-4bfcb9ad70c17f8373d5f323;12a7d48c-afba-49fe-a174-1edfc536093a)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:24,302 - Analyze error for black-trousers_151551cb: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e874-55e62a7745eb86fe04aa053e;cbd91da6-c197-416f-81dd-4147f8589817)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:24,414 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e874-5eaa9ecb6e6ddf0b5f6a357d;4f4fe255-9a96-43f4-8e0e-b40ad7d4071c)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:24,512 - Analyze error for white-t-shirt-round_0818ffcb: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e874-318da3c62e6053a20b07459c;b2fdd362-ad50-405a-9cb7-029357c0077a)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:24,604 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e874-34052c56671d999a19a56b10;d3249434-2d18-4314-ae33-cb6ddf96c2b5)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:24,858 - Analyze error for white-t-shirt_1f45f234: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e874-73ef3a6451dd11f66e883d79;c1820689-913d-40d5-8cbd-c712f3b0373c)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:13:24,954 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825e875-3fbce0ff2737bec27693a4d8;677d7d14-0c27-4cdb-bae6-ccb2ffbdda20)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:19:54,886 - Use pytorch device_name: cpu
+2025-05-15 13:19:54,886 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:20:04,546 - Use pytorch device_name: cpu
+2025-05-15 13:20:04,546 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:20:06,108 - Use pytorch device_name: cpu
+2025-05-15 13:20:06,108 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:20:07,734 - Analyze error for black-hat_f3fe41a7: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea07-24b0037c440eb82824203cdb;d81c9b66-ca26-4f05-bd5f-b2a1420b6cc0)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:20:07,827 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea07-0ec9ec1b07d58bb00430bef5;23c9dfbb-a120-4870-8e06-71fa2afd583a)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:20:07,920 - Analyze error for Black-hoodie_1c361157: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-2da80e825d25cacc7e31dddf;61563b35-5d30-4321-9cc8-f5dd4b1dd66d)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:20:08,028 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-58ff379a7da3e2c731c4d263;ef60700f-d8a5-448f-a6c8-6970bf7f0e40)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:20:08,129 - Analyze error for black-jumper_71c9bdd8: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-4c469db379e8777e479f34ad;58485790-4346-4914-8ce1-b91d6a575779)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:20:08,229 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-53230a0e0d90fe9a0aa8d636;1d6b59f5-3256-4866-8772-6ddeb40a045c)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:20:08,370 - Analyze error for black-pant_22589fea: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-00ca16ea42cb1450277cb9d1;77fd7900-70ac-445a-bf39-4c2ac6737ece)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:20:08,466 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-0bdcde572ad8d4cc77a43a4a;551948a8-9b5c-45ed-a926-6a9289e46872)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:20:08,560 - Analyze error for black-trousers_eeb8ab79: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-3b5c0c4f7667b13d015222c3;9eb7ec2c-1f54-4365-8dec-d22836e840d7)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:20:08,964 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-5a42224d65f481e164142a9a;68175f7a-136b-44c8-be9d-1440266a532f)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:20:09,060 - Analyze error for white-t-shirt-round_36706ebb: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea09-1fb3a63e6ce702c03bd51b8f;a58ee543-f307-45b9-81d4-d19d10d622eb)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:20:09,154 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea09-61ea5c321e624dcc20d6f971;6c6a4e78-46e8-4273-a494-186be21b8404)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:20:09,257 - Analyze error for white-t-shirt_c18048ef: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea09-71e4e8e228d93a1e5cf9bcd0;8798c813-8173-41ac-9352-0c639951e516)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:20:09,351 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea09-05fc76b10878dccc7dc3be64;2d3142dc-46b6-4982-b009-05e90ec2921a)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:20:18,116 - Use pytorch device_name: cpu
+2025-05-15 13:20:18,116 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:20:18,184 - Use pytorch device_name: cpu
+2025-05-15 13:20:18,184 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:23:20,355 - Use pytorch device_name: cpu
+2025-05-15 13:23:20,355 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:23:21,698 - Loaded 7 items from wardrobe_analysis.json
+2025-05-15 13:23:21,774 - Rebuilt FAISS index with 7 items
+2025-05-15 13:23:27,877 - Use pytorch device_name: cpu
+2025-05-15 13:23:27,877 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:23:29,456 - Loaded 7 items from wardrobe_analysis.json
+2025-05-15 13:23:29,528 - Rebuilt FAISS index with 7 items
+2025-05-15 13:23:30,296 - Use pytorch device_name: cpu
+2025-05-15 13:23:30,296 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:23:33,075 - Loaded 7 items from wardrobe_analysis.json
+2025-05-15 13:23:33,148 - Rebuilt FAISS index with 7 items
+2025-05-15 13:23:33,543 - Analyze error for black-hat_a14d32d2: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead5-7d51215c781ef9110b6e9d67;1d5b1598-de02-49cb-b337-fbc24894983a)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:23:33,654 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead5-058226901666295d7cb0ecb2;6c7413da-b797-4a82-9b83-cf7246868806)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:23:33,754 - Analyze error for Black-hoodie_32c1652a: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead5-1f301f0e307cc4154396da93;c2284f75-fe31-4a81-8faf-2755cf37dffb)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:23:33,910 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-57c32a2054869ecf197703b1;eb940a5c-06c6-4d65-8a8b-5b86d228e917)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:23:34,004 - Analyze error for black-jumper_cc2374d8: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-50504975309545853a77fcf4;6744f90a-74b7-4a32-99b5-3b2bad838033)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:23:34,098 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-49c238db276eff380f71e9ea;d6e1e24e-1707-448e-be5c-36ea81604788)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:23:34,198 - Analyze error for black-pant_bb308f0c: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-25256d8131d94dad228b1f93;7a5f1c6b-e198-4e9e-bb47-4836f8b37e60)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:23:34,333 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-4cb6a3b178b4a02e5c57d367;d81befa8-f589-47b4-873e-b23e6da6f85a)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:23:34,427 - Analyze error for black-trousers_b8938733: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-183dfeb75d69fa5e3d8e753e;55682e11-3bb7-4c68-927e-ff45687126bd)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:23:34,521 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-3026faf717226b39357b737f;51fdfc56-b634-4617-8006-cbc374fa65f4)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:23:34,615 - Analyze error for white-t-shirt-round_4350a7df: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-19b6304f32fd6a6650613866;32d98bb2-a1e8-457d-9283-1e57601cd091)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:23:34,708 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-7199d2af5854a9f90755780c;ceb636cd-19b8-4f73-ac3c-3c94473b63ad)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:23:34,811 - Analyze error for white-t-shirt_d719d0b8: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-1f653c3d18eafaa74d669b6f;2a7c6123-3099-4f7c-aa36-477327ae0638)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:23:34,917 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead7-76eb706a0a1a095278b472fc;0bb33704-56a7-4af7-b875-9239b9035a5f)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:23:34,918 - Saved wardrobe to wardrobe_analysis.json
+2025-05-15 13:23:34,919 - Saved wardrobe to wardrobe_analysis.csv
+2025-05-15 13:23:35,064 - Rebuilt FAISS index with 14 items
+2025-05-15 13:24:23,999 - Use pytorch device_name: cpu
+2025-05-15 13:24:23,999 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:24:25,384 - Loaded 14 items from wardrobe_analysis.json
+2025-05-15 13:24:25,535 - Rebuilt FAISS index with 14 items
+2025-05-15 13:24:36,125 - Use pytorch device_name: cpu
+2025-05-15 13:24:36,125 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:24:37,276 - Loaded 14 items from wardrobe_analysis.json
+2025-05-15 13:24:37,422 - Rebuilt FAISS index with 14 items
+2025-05-15 13:24:38,643 - Use pytorch device_name: cpu
+2025-05-15 13:24:38,643 - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-MiniLM-L6-v2
+2025-05-15 13:24:39,863 - Loaded 14 items from wardrobe_analysis.json
+2025-05-15 13:24:40,020 - Rebuilt FAISS index with 14 items
+2025-05-15 13:24:40,357 - Analyze error for black-hat_ccd515a2: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb18-6922c32a3266558d7b9d2300;70bf9990-c98c-48b6-901a-7f424adc14e3)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:24:40,452 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb18-6e759b7827cef3570db9c4a3;75bd5d34-c63d-49c3-9a21-8c254442f4e5)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:24:40,548 - Analyze error for Black-hoodie_4c00d2cb: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb18-5b0ddfbb49aa3d8063541aee;e40b789a-6c5b-4da3-b45e-04aa1dbfca93)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:24:40,655 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb18-10f7946236e1d4de197aca54;4309f665-d7d1-471a-be6d-8e16a4fc814b)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:24:40,760 - Analyze error for black-jumper_9320a30d: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb18-6fc96e5b315e84ba1d91eb80;2b50a03d-e704-4b1f-9aa5-f7fb761232c8)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:24:40,854 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-13ad3e0a24024dc2344cb99a;240c850a-74e2-4c92-a0f1-e628afc3f138)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:24:41,157 - Analyze error for black-pant_1deb42e3: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-06142a19738718b5134890d2;67f996d0-bd29-4f2a-a69e-e3895c91997a)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:24:41,260 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-1eea7af60976d56842471886;ca67e646-8c20-40b4-8aed-27bd31a17a0b)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:24:41,364 - Analyze error for black-trousers_807ca4cc: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-2cf45de90abad5d24b38ef09;61de9d24-5614-478d-9ef7-f5fd5557a7d9)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:24:41,461 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-53a0a93f202eb439139bd57d;f8ee26b8-c58e-427d-9bfc-256fcffbe632)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:24:41,560 - Analyze error for white-t-shirt-round_4c5a0186: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-25da866d5ef5621438fb40d0;8e1673b7-b718-4cec-adc9-ca827df7d337)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:24:41,664 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-766b6a884d1bfdfc1992750a;1c5ae3f1-25e9-4cfa-b785-1914cb2667ff)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:24:41,780 - Analyze error for white-t-shirt_1d6c8180: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-797295e232976dd647ea084d;253b1a82-ad68-4c12-a784-0477b4c45ed4)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:24:41,883 - Reprocess error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb1a-669fed3a2c31be920f223c3d;6766b918-aaa1-4f0f-86cc-b3e1c7054a15)
+
+You have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.
+2025-05-15 13:24:41,884 - Saved wardrobe to wardrobe_analysis.json
+2025-05-15 13:24:41,885 - Saved wardrobe to wardrobe_analysis.csv
+2025-05-15 13:24:42,105 - Rebuilt FAISS index with 21 items

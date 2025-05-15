@@ -83,8 +83,9 @@ def rebuild_index():
     if not image_data_store:
         index = None
         return
-    vectors = [embedder.encode(data['type'] + " " + data['style']) for data in image_data_store.values()]
-    index = faiss.IndexFlatL2(len(vectors[0]))
+    texts = [data['type'] + " " + data['style'] for data in image_data_store.values()]
+    vectors = embedder.encode(texts)
+    index = faiss.IndexFlatL2(vectors.shape[1])
     index.add(np.array(vectors).astype("float32"))
 
 def analyze_image(image: Image.Image, image_id: str):
@@ -131,6 +132,8 @@ def process_uploaded_files(uploaded_files):
         if img_id not in st.session_state["image_id_map"]:
             st.session_state["image_id_map"][img_id] = img
 
+    uploaded_files.clear()
+
 def analyze_all_uploaded_images():
     for img_id, img in st.session_state["image_id_map"].items():
         if img_id not in image_data_store:
@@ -147,8 +150,8 @@ def analyze_all_uploaded_images():
 def answer_question(question):
     if not image_data_store or not index:
         return "No wardrobe data available."
-    question_vec = embedder.encode(question).astype("float32")
-    _, I = index.search(np.array([question_vec]), k=min(5, len(image_data_store)))
+    question_vec = embedder.encode(question).astype("float32").reshape(1, -1)
+    _, I = index.search(question_vec, k=min(5, len(image_data_store)))
     matched_ids = list(image_data_store.keys())
     output = ""
     for idx in I[0]:
@@ -226,3 +229,5 @@ if user_question and st.button("Analyze My Wardrobe"):
         analyze_all_uploaded_images()
         answer = answer_question(user_question)
     st.markdown(answer)
+
+

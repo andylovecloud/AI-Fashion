@@ -1,85 +1,254 @@
 {
-  "black-hat_6c0fdc0a": {
-    "type": "Hat",
-    "color": "Black",
+  "black-hat_f3fe41a7": {
+    "type": "Unknown",
+    "color": "Unknown",
     "style": "Casual",
-    "season": "All",
-    "occasion": "Sun protection, outdoor sports, vacation, relaxation",
-    "suggestions": [
-      "Pair with sneakers",
-      "Layer with jacket"
-    ],
-    "raw": "Type: Hat\nColor: Black\nStyle: Casual\nSeason: All\nOccasion: Sun protection, outdoor sports, vacation, relaxation\nSuggested pairing items: Shorts, t-shirt, polo shirt, swimsuit, sunglasses, flip flops, or rashguard."
-  },
-  "Black-hoodie_3412112e": {
-    "type": "Hoodie",
-    "color": "Black",
-    "style": "Casual",
-    "season": "Winter/Fall",
+    "season": "All Seasons",
     "occasion": "General",
     "suggestions": [
-      "Pair with sneakers",
-      "Layer with jacket"
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea07-0ec9ec1b07d58bb00430bef5;23c9dfbb-a120-4870-8e06-71fa2afd583a)"
     ],
-    "raw": "1. Item Type: Hoodie\n2. Color: Black\n3. Style: Casual\n4. Season: Winter/Fall\n5. Occasions: College, staying warm in cold weather, casual meetings, comfort clothing\n6. Suggested pairing items: Jeans, sweatpants, boots, hat in black for a stylish casual look."
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea07-0ec9ec1b07d58bb00430bef5;23c9dfbb-a120-4870-8e06-71fa2afd583a)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
   },
-  "black-jumper_861bb8ad": {
-    "type": "Sweater",
-    "color": "Black",
+  "Black-hoodie_1c361157": {
+    "type": "Unknown",
+    "color": "Unknown",
     "style": "Casual",
-    "season": "Winter or colder seasons",
+    "season": "All Seasons",
     "occasion": "General",
     "suggestions": [
-      "Pair with sneakers",
-      "Layer with jacket"
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-58ff379a7da3e2c731c4d263;ef60700f-d8a5-448f-a6c8-6970bf7f0e40)"
     ],
-    "raw": "1. Item Type: Sweater\n2. Color: Black\n3. Style: Casual\n4. Season: Winter or colder seasons\n5. Occasions to wear: Daily wear, leisure, and informal events\n6. Suggested Pairing Items: Jeans, T-shirts, sneakers, hoodies, and a hat in black."
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-58ff379a7da3e2c731c4d263;ef60700f-d8a5-448f-a6c8-6970bf7f0e40)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
   },
-  "black-pant_93e94e78": {
-    "type": "Pants",
-    "color": "Black",
+  "black-jumper_71c9bdd8": {
+    "type": "Unknown",
+    "color": "Unknown",
     "style": "Casual",
-    "season": "Fall/Winter",
-    "occasion": "Business or casual events",
-    "suggestions": [
-      "a hoodie, sweater, or a shirt and tie for a semi-formal look"
-    ],
-    "raw": "Type: Pants\nColor: Black\nStyle: Casual\nSeason: Fall/Winter\nOccasion: Business or casual events\nSuggestions: Pair with a hoodie, sweater, or a shirt and tie for a semi-formal look."
-  },
-  "black-trousers_58e46978": {
-    "type": "Pants",
-    "color": "Black",
-    "style": "Casual",
-    "season": "All seasons",
+    "season": "All Seasons",
     "occasion": "General",
     "suggestions": [
-      "Pair with sneakers",
-      "Layer with jacket"
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-53230a0e0d90fe9a0aa8d636;1d6b59f5-3256-4866-8772-6ddeb40a045c)"
     ],
-    "raw": "1. Item Type: Pants\n2. Color: Black\n3. Style: Casual\n4. Season: All seasons\n5. Occasions to wear: Casual, formal, semi-formal, lounging\n6. Suggested pairing items: Hat in Black, Hoodie in Black, Sweater in Black, Pants in Black."
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-53230a0e0d90fe9a0aa8d636;1d6b59f5-3256-4866-8772-6ddeb40a045c)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
   },
-  "white-t-shirt-round_784de137": {
-    "type": "Shirt",
-    "color": "White",
+  "black-pant_22589fea": {
+    "type": "Unknown",
+    "color": "Unknown",
     "style": "Casual",
-    "season": "All seasons",
-    "occasion": "Casual or semi-formal",
-    "suggestions": [
-      "Pair with sneakers",
-      "Layer with jacket"
-    ],
-    "raw": "Type: Shirt\nColor: White\nStyle: Casual\nSeason: All seasons\nOccasion: Casual or semi-formal\nSuggested pairing items: Hat in Black, Hoodie in Black, Sweater in Black, Pants in Black, Jeans, Skirt, Dress, Loafer, Sandal"
-  },
-  "white-t-shirt_48e4f258": {
-    "type": "T-shirt",
-    "color": "White",
-    "style": "Casual",
-    "season": "All seasons",
+    "season": "All Seasons",
     "occasion": "General",
     "suggestions": [
-      "Pair with sneakers",
-      "Layer with jacket"
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-0bdcde572ad8d4cc77a43a4a;551948a8-9b5c-45ed-a926-6a9289e46872)"
     ],
-    "raw": "1. Item Type: T-shirt\n2. Color: White\n3. Style: Casual\n4. Season: All seasons\n5. Occasions to wear: Vacation, relaxing day, hanging out with friends, workout\n6. Suggested pairing items: Sweats, hoodie, hats, sunglasses, shorts, swimsuits."
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-0bdcde572ad8d4cc77a43a4a;551948a8-9b5c-45ed-a926-6a9289e46872)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "black-trousers_eeb8ab79": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-5a42224d65f481e164142a9a;68175f7a-136b-44c8-be9d-1440266a532f)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea08-5a42224d65f481e164142a9a;68175f7a-136b-44c8-be9d-1440266a532f)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "white-t-shirt-round_36706ebb": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea09-61ea5c321e624dcc20d6f971;6c6a4e78-46e8-4273-a494-186be21b8404)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea09-61ea5c321e624dcc20d6f971;6c6a4e78-46e8-4273-a494-186be21b8404)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "white-t-shirt_c18048ef": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea09-05fc76b10878dccc7dc3be64;2d3142dc-46b6-4982-b009-05e90ec2921a)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ea09-05fc76b10878dccc7dc3be64;2d3142dc-46b6-4982-b009-05e90ec2921a)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "black-hat_a14d32d2": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead5-058226901666295d7cb0ecb2;6c7413da-b797-4a82-9b83-cf7246868806)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead5-058226901666295d7cb0ecb2;6c7413da-b797-4a82-9b83-cf7246868806)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "Black-hoodie_32c1652a": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-57c32a2054869ecf197703b1;eb940a5c-06c6-4d65-8a8b-5b86d228e917)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-57c32a2054869ecf197703b1;eb940a5c-06c6-4d65-8a8b-5b86d228e917)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "black-jumper_cc2374d8": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-49c238db276eff380f71e9ea;d6e1e24e-1707-448e-be5c-36ea81604788)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-49c238db276eff380f71e9ea;d6e1e24e-1707-448e-be5c-36ea81604788)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "black-pant_bb308f0c": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-4cb6a3b178b4a02e5c57d367;d81befa8-f589-47b4-873e-b23e6da6f85a)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-4cb6a3b178b4a02e5c57d367;d81befa8-f589-47b4-873e-b23e6da6f85a)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "black-trousers_b8938733": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-3026faf717226b39357b737f;51fdfc56-b634-4617-8006-cbc374fa65f4)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-3026faf717226b39357b737f;51fdfc56-b634-4617-8006-cbc374fa65f4)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "white-t-shirt-round_4350a7df": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-7199d2af5854a9f90755780c;ceb636cd-19b8-4f73-ac3c-3c94473b63ad)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead6-7199d2af5854a9f90755780c;ceb636cd-19b8-4f73-ac3c-3c94473b63ad)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "white-t-shirt_d719d0b8": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead7-76eb706a0a1a095278b472fc;0bb33704-56a7-4af7-b875-9239b9035a5f)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825ead7-76eb706a0a1a095278b472fc;0bb33704-56a7-4af7-b875-9239b9035a5f)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "black-hat_ccd515a2": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb18-6e759b7827cef3570db9c4a3;75bd5d34-c63d-49c3-9a21-8c254442f4e5)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb18-6e759b7827cef3570db9c4a3;75bd5d34-c63d-49c3-9a21-8c254442f4e5)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "Black-hoodie_4c00d2cb": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb18-10f7946236e1d4de197aca54;4309f665-d7d1-471a-be6d-8e16a4fc814b)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb18-10f7946236e1d4de197aca54;4309f665-d7d1-471a-be6d-8e16a4fc814b)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "black-jumper_9320a30d": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-13ad3e0a24024dc2344cb99a;240c850a-74e2-4c92-a0f1-e628afc3f138)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-13ad3e0a24024dc2344cb99a;240c850a-74e2-4c92-a0f1-e628afc3f138)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "black-pant_1deb42e3": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-1eea7af60976d56842471886;ca67e646-8c20-40b4-8aed-27bd31a17a0b)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-1eea7af60976d56842471886;ca67e646-8c20-40b4-8aed-27bd31a17a0b)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "black-trousers_807ca4cc": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-53a0a93f202eb439139bd57d;f8ee26b8-c58e-427d-9bfc-256fcffbe632)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-53a0a93f202eb439139bd57d;f8ee26b8-c58e-427d-9bfc-256fcffbe632)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "white-t-shirt-round_4c5a0186": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-766b6a884d1bfdfc1992750a;1c5ae3f1-25e9-4cfa-b785-1914cb2667ff)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb19-766b6a884d1bfdfc1992750a;1c5ae3f1-25e9-4cfa-b785-1914cb2667ff)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+  },
+  "white-t-shirt_1d6c8180": {
+    "type": "Unknown",
+    "color": "Unknown",
+    "style": "Casual",
+    "season": "All Seasons",
+    "occasion": "General",
+    "suggestions": [
+      "inference/models/meta-llama/Llama-3",
+      "11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb1a-669fed3a2c31be920f223c3d;6766b918-aaa1-4f0f-86cc-b3e1c7054a15)"
+    ],
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6825eb1a-669fed3a2c31be920f223c3d;6766b918-aaa1-4f0f-86cc-b3e1c7054a15)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
   }
 }
