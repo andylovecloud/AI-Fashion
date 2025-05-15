@@ -1,5 +1,5 @@
 {
-  "black-hat_41960bf7": {
+  "black-hat_27da3dc0": {
     "type": "Shirt",
     "color": "Black",
     "style": "Casual",
@@ -9,9 +9,9 @@
       "Pair with sneakers",
       "Layer with jacket"
     ],
-    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6824fa1a-1bba7e70477f61c11c72337a;02ca53e9-1114-46ab-9363-63c34fba4499)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-68258e8d-71e6cc8459375103487028db;72499c0e-c571-407c-bbae-4ba1b5efdeaa)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
   },
-  "Black-hoodie_f6b852e4": {
+  "Black-hoodie_b169cabb": {
     "type": "Shirt",
     "color": "Black",
     "style": "Casual",
@@ -21,9 +21,9 @@
       "Pair with sneakers",
       "Layer with jacket"
     ],
-    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6824fa1a-684135616c35798a47efc65a;ed731501-5c92-41c3-8fc7-4672879ccd5a)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-68258e8d-31bdd74a788a1b7e6110b19f;2ce81929-074d-43ac-a27e-86dd09815c31)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
   },
-  "black-jumper_b06f2237": {
+  "black-jumper_e1833fc4": {
     "type": "Shirt",
     "color": "Black",
     "style": "Casual",
@@ -33,9 +33,9 @@
       "Pair with sneakers",
       "Layer with jacket"
     ],
-    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6824fa1a-0625fd203234876d5e7f439a;93b3e742-6d9f-43a9-b549-4a0e4c559593)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-68258e8d-0a3a27f275693b3a4d1b1af1;c796ff85-b0ea-49d4-99e9-3f0ee4a21aea)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
   },
-  "black-pant_877cbc67": {
+  "black-pant_c0613262": {
     "type": "Shirt",
     "color": "Black",
     "style": "Casual",
@@ -45,9 +45,9 @@
       "Pair with sneakers",
       "Layer with jacket"
     ],
-    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6824fa1a-56dfb3a84537a1ca4df3a2c6;c8aa394c-ae1c-4a77-ad07-fefa6620ebbb)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-68258e8d-51c87af64733d58b6d3293a5;e8b10a2b-99c9-4bc5-99a9-074e00ca1dc2)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
   },
-  "black-trousers_c4e50238": {
+  "black-trousers_567ecc68": {
     "type": "Shirt",
     "color": "Black",
     "style": "Casual",
@@ -57,9 +57,9 @@
       "Pair with sneakers",
       "Layer with jacket"
     ],
-    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6824fa1a-387ae14d3d7bf7467f5571a0;b718872e-c2d5-4383-bac7-fd059654cfdf)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-68258e8d-6457664d79bcb9a46a209b96;573ab0a9-9632-4163-a192-2e662dee5b92)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
   },
-  "white-t-shirt-round_dace6fac": {
+  "white-t-shirt-round_abf2f467": {
     "type": "Shirt",
     "color": "Black",
     "style": "Casual",
@@ -69,9 +69,9 @@
       "Pair with sneakers",
       "Layer with jacket"
     ],
-    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6824fa1a-1e5d54313ade7c2375487dd6;edd84e4f-ddf4-4ba6-9c62-d28ccc24eb2b)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-68258e8d-6657aa3165784bf34a4b39c2;b145b051-22d9-4432-8d23-57962c62c570)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
   },
-  "white-t-shirt_15968e7a": {
+  "white-t-shirt_f2a7c86a": {
     "type": "Shirt",
     "color": "Black",
     "style": "Casual",
@@ -81,6 +81,6 @@
       "Pair with sneakers",
       "Layer with jacket"
     ],
-    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-6824fa1a-61e7cc226df7e6650673b08a;09e5cf45-39d5-4dab-a09d-6a45fd985219)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-68258e8d-4e45e9ef5019977b6c3cde37;136cf657-e4ad-40ad-bc56-f0f17022cb3b)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
   }
 }
