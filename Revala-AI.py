@@ -13,26 +13,22 @@ from sentence_transformers import SentenceTransformer
 import faiss
 import re
 
-# Fix Streamlit file watcher issue with PyTorch
 os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 
 # ------------------- Config -------------------
 JSON_PATH = "wardrobe_analysis.json"
 CSV_PATH = "wardrobe_analysis.csv"
 EMBEDDING_MODEL = "sentence-transformers/paraphrase-MiniLM-L6-v2"
-LLM_MODEL = "meta-llama/Llama-3.2-11B-Vision-Instruct"
-API_KEY = "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"
+LLM_MODEL = "llava-hf/llava-1.5-7b-hf"  # fallback to stable model
+API_KEY = "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"
 # ---------------------------------------------
 
 client = InferenceClient(model=LLM_MODEL, token=API_KEY)
 embedder = SentenceTransformer(EMBEDDING_MODEL)
 
-# ------------------- Global State -------------------
 image_data_store = {}
 image_id_map = {}
 index = None
-
-# ------------------- Utilities -------------------
 
 def resize_image(image: Image.Image, scale=0.5) -> Image.Image:
     width, height = image.size
@@ -60,7 +56,7 @@ def parse_response(text):
         "style": re.search(r"(?i)style\W*:\W*(.+)", text).group(1).strip() if re.search(r"(?i)style\W*:", text) else None,
         "season": re.search(r"(?i)season\W*:\W*(.+)", text).group(1).strip() if re.search(r"(?i)season\W*:", text) else None,
         "occasion": re.search(r"(?i)occasion\W*:\W*(.+)", text).group(1).strip() if re.search(r"(?i)occasion\W*:", text) else None,
-        "suggestions": re.findall(r"(?i)pair with ([^.\n]+)[.\n]", text)
+        "suggestions": re.findall(r"(?i)pair with ([^\.\n]+)[\.\n]", text)
     })
 
 def save_json():
@@ -100,10 +96,15 @@ def analyze_image(image: Image.Image, image_id: str):
 
     prompt = (
         "You are a fashion stylist. Analyze the clothing item shown in the image and return the following:\n"
-        "1. Item Type\n2. Color\n3. Style (casual, formal, semi-formal)\n4. Suitable Season\n5. Occasions to wear\n"
+        "1. Item Type\n"
+        "2. Color\n"
+        "3. Style (casual, formal, semi-formal)\n"
+        "4. Suitable Season\n"
+        "5. Occasions to wear\n"
         "6. Suggested pairing items ONLY from the list below:\n\n"
         f"Existing wardrobe items:\n{wardrobe_summary}\n\n"
-        "Format your response like:\nType: ...\nColor: ...\nStyle: ...\nSeason: ...\nOccasion: ...\nSuggestions: Pair with ..."
+        "Format your response like:\n"
+        "Type: ...\nColor: ...\nStyle: ...\nSeason: ...\nOccasion: ...\nSuggestions: Pair with ..."
     )
 
     contents = [
@@ -112,13 +113,14 @@ def analyze_image(image: Image.Image, image_id: str):
     ]
 
     try:
-        completion = client.chat.completions.create(
+        response = client.chat.completions.create(
             messages=[{"role": "user", "content": contents}],
             max_tokens=1024,
         )
-        return completion.choices[0].message.content.strip()
+        return response.choices[0].message.content.strip()
     except Exception as e:
-        return f"Error: {e}"
+        st.error(f"API error: {e}")
+        return ""
 
 def process_uploaded_files(uploaded_files):
     for file in uploaded_files:
@@ -126,15 +128,18 @@ def process_uploaded_files(uploaded_files):
         img = resize_image(img, scale=0.5)
         img_id = os.path.splitext(file.name)[0] + "_" + str(uuid.uuid4())[:8]
 
-        if img_id not in image_data_store:
-            response = analyze_image(img, img_id)
-            parsed = parse_response(response)
-            parsed["raw"] = response
-
-            image_data_store[img_id] = parsed
-            image_id_map[img_id] = img
+        if img_id not in st.session_state["image_id_map"]:
             st.session_state["image_id_map"][img_id] = img
 
+def analyze_all_uploaded_images():
+    for img_id, img in st.session_state["image_id_map"].items():
+        if img_id not in image_data_store:
+            response = analyze_image(img, img_id)
+            if not response:
+                continue
+            parsed = parse_response(response)
+            parsed["raw"] = response
+            image_data_store[img_id] = parsed
     save_json()
     save_csv()
     rebuild_index()
@@ -147,6 +152,8 @@ def answer_question(question):
     matched_ids = list(image_data_store.keys())
     output = ""
     for idx in I[0]:
+        if idx >= len(matched_ids):
+            continue
         img_id = matched_ids[idx]
         data = image_data_store[img_id]
         output += f"### Image {img_id}\n"
@@ -161,19 +168,15 @@ def answer_question(question):
 def delete_item(image_id):
     if image_id not in image_data_store:
         return f"⚠️ No match found for '{image_id}'."
-
     image_data_store.pop(image_id, None)
     image_id_map.pop(image_id, None)
     if "image_id_map" in st.session_state:
         st.session_state["image_id_map"].pop(image_id, None)
-
     save_json()
     save_csv()
     rebuild_index()
-
     return f"✅ Deleted: {image_id}"
 
-# ------------------- Streamlit UI -------------------
 st.set_page_config(page_title="AI Stylist", layout="wide")
 st.title("🧥 AI Stylist — Wardrobe Advisor with RAG & Vision")
 
@@ -181,7 +184,6 @@ if "image_id_map" not in st.session_state:
     st.session_state["image_id_map"] = {}
 
 uploaded_files = st.file_uploader("Upload Clothing Images", type=["png", "jpg", "jpeg"], accept_multiple_files=True)
-
 if uploaded_files:
     st.subheader("📂 Uploaded Files (Select to keep)")
     files_to_keep = []
@@ -195,9 +197,9 @@ if uploaded_files:
             files_to_keep.append(file)
 
     if st.button("Process Selected Files"):
-        with st.spinner("Analyzing selected wardrobe items..."):
+        with st.spinner("Uploading selected wardrobe items..."):
             process_uploaded_files(files_to_keep)
-        st.success("Wardrobe updated!")
+        st.success("Images uploaded!")
 
 if st.session_state["image_id_map"]:
     st.subheader("👗 Wardrobe Gallery")
@@ -217,11 +219,10 @@ if st.session_state["image_id_map"]:
         else:
             st.warning(result)
 
-    st.subheader("💬 Ask your stylist")
-    user_question = st.text_input("What would you like to ask?")
-    if user_question:
-        with st.spinner("Thinking..."):
-            answer = answer_question(user_question)
-        st.markdown(answer)
-        st.success("Done!")
-    
+st.subheader("💬 Ask your stylist")
+user_question = st.text_input("What would you like to ask?")
+if user_question and st.button("Analyze My Wardrobe"):
+    with st.spinner("Analyzing images and generating response..."):
+        analyze_all_uploaded_images()
+        answer = answer_question(user_question)
+    st.markdown(answer)

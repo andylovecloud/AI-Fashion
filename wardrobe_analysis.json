@@ -1,86 +1,85 @@
 {
-  "black-hat_27da3dc0": {
-    "type": "Shirt",
+  "black-hat_6c0fdc0a": {
+    "type": "Hat",
     "color": "Black",
     "style": "Casual",
-    "season": "All Seasons",
-    "occasion": "General",
+    "season": "All",
+    "occasion": "Sun protection, outdoor sports, vacation, relaxation",
     "suggestions": [
       "Pair with sneakers",
       "Layer with jacket"
     ],
-    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-68258e8d-71e6cc8459375103487028db;72499c0e-c571-407c-bbae-4ba1b5efdeaa)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+    "raw": "Type: Hat\nColor: Black\nStyle: Casual\nSeason: All\nOccasion: Sun protection, outdoor sports, vacation, relaxation\nSuggested pairing items: Shorts, t-shirt, polo shirt, swimsuit, sunglasses, flip flops, or rashguard."
   },
-  "Black-hoodie_b169cabb": {
-    "type": "Shirt",
+  "Black-hoodie_3412112e": {
+    "type": "Hoodie",
     "color": "Black",
     "style": "Casual",
-    "season": "All Seasons",
+    "season": "Winter/Fall",
     "occasion": "General",
     "suggestions": [
       "Pair with sneakers",
       "Layer with jacket"
     ],
-    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-68258e8d-31bdd74a788a1b7e6110b19f;2ce81929-074d-43ac-a27e-86dd09815c31)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+    "raw": "1. Item Type: Hoodie\n2. Color: Black\n3. Style: Casual\n4. Season: Winter/Fall\n5. Occasions: College, staying warm in cold weather, casual meetings, comfort clothing\n6. Suggested pairing items: Jeans, sweatpants, boots, hat in black for a stylish casual look."
   },
-  "black-jumper_e1833fc4": {
-    "type": "Shirt",
+  "black-jumper_861bb8ad": {
+    "type": "Sweater",
     "color": "Black",
     "style": "Casual",
-    "season": "All Seasons",
+    "season": "Winter or colder seasons",
     "occasion": "General",
     "suggestions": [
       "Pair with sneakers",
       "Layer with jacket"
     ],
-    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-68258e8d-0a3a27f275693b3a4d1b1af1;c796ff85-b0ea-49d4-99e9-3f0ee4a21aea)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+    "raw": "1. Item Type: Sweater\n2. Color: Black\n3. Style: Casual\n4. Season: Winter or colder seasons\n5. Occasions to wear: Daily wear, leisure, and informal events\n6. Suggested Pairing Items: Jeans, T-shirts, sneakers, hoodies, and a hat in black."
   },
-  "black-pant_c0613262": {
-    "type": "Shirt",
+  "black-pant_93e94e78": {
+    "type": "Pants",
     "color": "Black",
     "style": "Casual",
-    "season": "All Seasons",
-    "occasion": "General",
+    "season": "Fall/Winter",
+    "occasion": "Business or casual events",
     "suggestions": [
-      "Pair with sneakers",
-      "Layer with jacket"
+      "a hoodie, sweater, or a shirt and tie for a semi-formal look"
     ],
-    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-68258e8d-51c87af64733d58b6d3293a5;e8b10a2b-99c9-4bc5-99a9-074e00ca1dc2)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+    "raw": "Type: Pants\nColor: Black\nStyle: Casual\nSeason: Fall/Winter\nOccasion: Business or casual events\nSuggestions: Pair with a hoodie, sweater, or a shirt and tie for a semi-formal look."
   },
-  "black-trousers_567ecc68": {
-    "type": "Shirt",
+  "black-trousers_58e46978": {
+    "type": "Pants",
     "color": "Black",
     "style": "Casual",
-    "season": "All Seasons",
+    "season": "All seasons",
     "occasion": "General",
     "suggestions": [
       "Pair with sneakers",
       "Layer with jacket"
     ],
-    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-68258e8d-6457664d79bcb9a46a209b96;573ab0a9-9632-4163-a192-2e662dee5b92)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+    "raw": "1. Item Type: Pants\n2. Color: Black\n3. Style: Casual\n4. Season: All seasons\n5. Occasions to wear: Casual, formal, semi-formal, lounging\n6. Suggested pairing items: Hat in Black, Hoodie in Black, Sweater in Black, Pants in Black."
   },
-  "white-t-shirt-round_abf2f467": {
+  "white-t-shirt-round_784de137": {
     "type": "Shirt",
-    "color": "Black",
+    "color": "White",
     "style": "Casual",
-    "season": "All Seasons",
-    "occasion": "General",
+    "season": "All seasons",
+    "occasion": "Casual or semi-formal",
     "suggestions": [
       "Pair with sneakers",
       "Layer with jacket"
     ],
-    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-68258e8d-6657aa3165784bf34a4b39c2;b145b051-22d9-4432-8d23-57962c62c570)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+    "raw": "Type: Shirt\nColor: White\nStyle: Casual\nSeason: All seasons\nOccasion: Casual or semi-formal\nSuggested pairing items: Hat in Black, Hoodie in Black, Sweater in Black, Pants in Black, Jeans, Skirt, Dress, Loafer, Sandal"
   },
-  "white-t-shirt_f2a7c86a": {
-    "type": "Shirt",
-    "color": "Black",
+  "white-t-shirt_48e4f258": {
+    "type": "T-shirt",
+    "color": "White",
     "style": "Casual",
-    "season": "All Seasons",
+    "season": "All seasons",
     "occasion": "General",
     "suggestions": [
       "Pair with sneakers",
       "Layer with jacket"
     ],
-    "raw": "Error: 402 Client Error: Payment Required for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.2-11B-Vision-Instruct/v1/chat/completions (Request ID: Root=1-68258e8d-4e45e9ef5019977b6c3cde37;136cf657-e4ad-40ad-bc56-f0f17022cb3b)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits."
+    "raw": "1. Item Type: T-shirt\n2. Color: White\n3. Style: Casual\n4. Season: All seasons\n5. Occasions to wear: Vacation, relaxing day, hanging out with friends, workout\n6. Suggested pairing items: Sweats, hoodie, hats, sunglasses, shorts, swimsuits."
   }
 }
